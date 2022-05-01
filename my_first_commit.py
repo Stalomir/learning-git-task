@@ -1,4 +1,4 @@
-
+import time
 shopping_list = {'wędkarski':['wędka','haczyk','robak','granat'], 'malarski':['pędzel','wałek', 'farba','granat'],
 'warzywniak':['cukinia','bakłażan','kabaczek','granat']}
 item_number = 0
@@ -9,4 +9,9 @@ for k in shopping_list:
 print("\033[1;31mW sumie kupuję",item_number,"produktów")
 print('\033[0mKolejny commit wg polecenia')
 
+import time
+greetings = "Pozdrowienia ze słonecznej stolicy"
+for l in greetings:
+    print(l, flush=True, end = " ")
+    time.sleep(0.3)
 
